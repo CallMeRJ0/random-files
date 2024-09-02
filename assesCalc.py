@@ -6,5 +6,4 @@ if mark > total_marks:
     print("Try again, your score was higher than the total marks.")
     exit()
 percent = (mark/total_marks)*100
-percent = round(percent, 3)
 print(f"You got {percent}% out of 100% on your {test_type} test.")
